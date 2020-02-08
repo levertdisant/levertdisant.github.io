@@ -1,2 +1,4 @@
-# levertdisant.github.io
-Blog du collège du Kochersberg
+# Le Blog du collège du Kochersberg
+
+Le blog est accessible [ici](https://levertdisant.github.io/) !
+Bonne lecture !
