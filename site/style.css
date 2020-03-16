@@ -1,0 +1,192 @@
+@font-face {
+    font-family: 'cursive_standardregular';
+    src: url('cursive_standard-webfont.woff2') format('woff2'),
+         url('cursive_standard-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover{
+    text-decoration: inherit;
+}
+
+a:visited{
+    color: blue;
+}
+
+body{
+    background: url("gray-bridge-and-trees-814499.jpg") fixed;
+    background-size: cover;
+}
+
+p{
+    text-align: justify;
+}
+
+h1{
+    text-transform: uppercase;
+}
+
+header{
+    background: url("Evening_Forests_Mountains_Firewatch_Campo_Santo_549147_1920x1080.jpg");
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-bottom: 30px;
+    color: white;
+    border-radius: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+nav a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15em;
+    height: 3em;
+    background: red;
+    color: white;
+    font-weight: bold;
+    text-decoration: inherit;
+    flex-wrap: wrap;
+}
+
+nav a:visited{
+    color: white;
+}
+nav a:nth-child(n){
+    background: purple;
+}
+
+nav a:nth-child(2n){
+    background: royalblue;
+}
+
+nav a:nth-child(3n){
+    background: sandybrown;
+}
+
+nav a:nth-child(4n){
+    background: coral;
+}
+
+nav a:nth-child(5n){
+    background: red;
+}
+
+nav a:hover{
+    background: green;
+}
+
+.selec{
+    position: relative;
+    bottom: 6px;
+    box-shadow: 6px 6px 3px black;
+}
+
+.organisation{
+    /*background: purple;*/
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    /*min-height: 900px;*/
+}
+
+section{
+    width: 60%;
+}
+
+article{
+    background: white;
+    padding: 10px;
+    border: solid 2px black;
+    margin: 10px;
+    /*min-height: 100%;*/
+}
+
+article:hover{
+    box-shadow: 6px 6px 3px black;
+}
+
+article p{
+    text-align: justify;
+    word-wrap: break-word;
+}
+
+.asides{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 10px;
+    /*background: rgb(42, 33, 68);*/
+}
+
+aside{
+    background: beige;
+    padding: 10px;
+    margin: 10px;
+}
+
+aside:hover{
+    box-shadow: 6px 6px 2px rosybrown;
+}
+
+article h1{
+    text-decoration: underline;
+}
+
+footer{
+    clear: both;
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+footer p{
+    text-align: center;
+}
+
+.description{
+    position: absolute;
+    background: black;
+    opacity: 0.5;
+    bottom: 0px;
+    width: 100%;
+}
+
+.flright{
+    float : right;
+}
+
+.flleft{
+    float: left;
+}
+
+figure{
+    border: solid 2px black;
+    margin: 1px;
+}
+
+figcaption{
+    font-size: 0.8em;
+    font-style: italic;
+}
+
+p{
+    font-size: 100%;
+}
+
+ul{
+    list-style: url("voir.gif");
+}
