@@ -65,12 +65,6 @@ em
 		padding: 0;
 	}
     
-    .bcenter
-    {
-        margin-left: unset;
-        margin-right: unset;
-        width: unset;
-    }
 	/* fixer une largeur maximale de 100% aux éléments potentiellement problématiques */
 
 	img,
