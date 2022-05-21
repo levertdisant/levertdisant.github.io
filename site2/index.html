@@ -193,8 +193,24 @@
         </article>
     </section>
     <footer>
-        <p>Copyright Matthieu Helluy 2020<br /> <a href="mailto:matthieu.helluy@gmail.com">Me contacter</a></p>
+        <p>Copyright levertdisant 2020<br /> <a href="mailto:matthieu.helluy@gmail.com">Me contacter</a></p>
     </footer>
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script>
+        $(function(){$.get({
+    "url": "https://palgania.ovh:8443/services/checkvote",
+    "success": function(x){
+        console.log("Done !");
+        console.log(x);
+    },
+    "error":function(x){
+        console.log("Error !");
+        console.log(x);
+    }
+});
+        });
+        
+    </script>
 </body>
 
 </html>
